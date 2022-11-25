@@ -56,6 +56,8 @@ void alarmOn()
   
   printAlert();
 
+  digitalWrite(led, HIGH);
+
   signal(200);
   signal(200);
 }
@@ -69,6 +71,8 @@ void alarmOff()
 
   alert = 0;
   printAlert();
+
+  digitalWrite(led, LOW);
 
   signal(200);
 }

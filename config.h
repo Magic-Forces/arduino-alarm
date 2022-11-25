@@ -5,9 +5,10 @@ LiquidCrystal_I2C lcd(0x27,16, 2);
 #define ch1 2
 #define ch2 3
 #define ups 4
-#define pump 5
-#define valve 6
-#define alarm 7
+#define led 5
+#define pump 6
+#define valve 7
+#define alarm 8
 
 #define pir0 A0
 #define pir1 A1
